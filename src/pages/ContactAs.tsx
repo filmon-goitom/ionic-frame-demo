@@ -1,6 +1,5 @@
 import {
     IonBackButton,
-    IonButton,
     IonButtons,
   IonCard,
   IonCardContent,
@@ -14,12 +13,12 @@ import {
   IonToolbar,
 } from "@ionic/react";
 
-export const About = () => {
+export const ContactAs = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>About Page</IonTitle>
+          <IonTitle>Contact As</IonTitle>
           <IonButtons slot="start">
             <IonBackButton></IonBackButton>
           </IonButtons>
@@ -33,11 +32,9 @@ export const About = () => {
           </IonCardHeader>
 
           <IonCardContent>
-            Here's a small text description for the card content. Nothing more,
-            nothing less.
+            Lorem ipsum dolor sit amet consectetur.
           </IonCardContent>
         </IonCard>
-        <IonButton routerLink="/ContactAs">Contact As!</IonButton>
       </IonContent>
     </IonPage>
   );
